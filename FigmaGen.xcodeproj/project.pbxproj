@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D06F22C215556EE00E5BD1E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D06F22B215556EE00E5BD1E /* main.swift */; };
+		1D8CB7E421555B19000D7352 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CB7E321555B19000D7352 /* Logger.swift */; };
+		1D8CB7E621555E63000D7352 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CB7E521555E63000D7352 /* Commander.framework */; };
+		1D8CB7E821555E63000D7352 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CB7E721555E63000D7352 /* PathKit.framework */; };
+		1D8CB7EA21555E63000D7352 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CB7E921555E63000D7352 /* Stencil.framework */; };
+		4AC81347265B0C474817325D /* Pods_FigmaGen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633E8B8A755147C5894D9BA6 /* Pods_FigmaGen.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D06F226215556EE00E5BD1E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D06F228215556EE00E5BD1E /* FigmaGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FigmaGen; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D06F22B215556EE00E5BD1E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1D8CB7E321555B19000D7352 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		1D8CB7E521555E63000D7352 /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8CB7E721555E63000D7352 /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8CB7E921555E63000D7352 /* Stencil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Stencil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633E8B8A755147C5894D9BA6 /* Pods_FigmaGen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FigmaGen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		679C8A95A8058D4084B0DB63 /* Pods-FigmaGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigmaGen.release.xcconfig"; path = "Pods/Target Support Files/Pods-FigmaGen/Pods-FigmaGen.release.xcconfig"; sourceTree = "<group>"; };
+		FD9A2BA80D203B67CD993955 /* Pods-FigmaGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigmaGen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FigmaGen/Pods-FigmaGen.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D06F225215556EE00E5BD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8CB7E621555E63000D7352 /* Commander.framework in Frameworks */,
+				1D8CB7E821555E63000D7352 /* PathKit.framework in Frameworks */,
+				1D8CB7EA21555E63000D7352 /* Stencil.framework in Frameworks */,
+				4AC81347265B0C474817325D /* Pods_FigmaGen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D06F21F215556EE00E5BD1E = {
+			isa = PBXGroup;
+			children = (
+				1D06F22A215556EE00E5BD1E /* FigmaGen */,
+				1D06F229215556EE00E5BD1E /* Products */,
+				A6DECB38BD27C6C0FF055A6B /* Pods */,
+				469F7664E66A3CC0D3F3693A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D06F229215556EE00E5BD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D06F228215556EE00E5BD1E /* FigmaGen */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D06F22A215556EE00E5BD1E /* FigmaGen */ = {
+			isa = PBXGroup;
+			children = (
+				1D06F22B215556EE00E5BD1E /* main.swift */,
+				1D8CB7E321555B19000D7352 /* Logger.swift */,
+			);
+			path = FigmaGen;
+			sourceTree = "<group>";
+		};
+		469F7664E66A3CC0D3F3693A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CB7E521555E63000D7352 /* Commander.framework */,
+				1D8CB7E721555E63000D7352 /* PathKit.framework */,
+				1D8CB7E921555E63000D7352 /* Stencil.framework */,
+				633E8B8A755147C5894D9BA6 /* Pods_FigmaGen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DECB38BD27C6C0FF055A6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD9A2BA80D203B67CD993955 /* Pods-FigmaGen.debug.xcconfig */,
+				679C8A95A8058D4084B0DB63 /* Pods-FigmaGen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D06F227215556EE00E5BD1E /* FigmaGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D06F22F215556EE00E5BD1E /* Build configuration list for PBXNativeTarget "FigmaGen" */;
+			buildPhases = (
+				230ED536DBE3D2369FB85A47 /* [CP] Check Pods Manifest.lock */,
+				1D06F224215556EE00E5BD1E /* Sources */,
+				1D06F225215556EE00E5BD1E /* Frameworks */,
+				1D06F226215556EE00E5BD1E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FigmaGen;
+			productName = FigmaGen;
+			productReference = 1D06F228215556EE00E5BD1E /* FigmaGen */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D06F220215556EE00E5BD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Alexey Subbotkin";
+				TargetAttributes = {
+					1D06F227215556EE00E5BD1E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 1D06F223215556EE00E5BD1E /* Build configuration list for PBXProject "FigmaGen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D06F21F215556EE00E5BD1E;
+			productRefGroup = 1D06F229215556EE00E5BD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D06F227215556EE00E5BD1E /* FigmaGen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		230ED536DBE3D2369FB85A47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FigmaGen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D06F224215556EE00E5BD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D06F22C215556EE00E5BD1E /* main.swift in Sources */,
+				1D8CB7E421555B19000D7352 /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D06F22D215556EE00E5BD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D06F22E215556EE00E5BD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1D06F230215556EE00E5BD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9A2BA80D203B67CD993955 /* Pods-FigmaGen.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65W67XFXG5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		1D06F231215556EE00E5BD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679C8A95A8058D4084B0DB63 /* Pods-FigmaGen.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65W67XFXG5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D06F223215556EE00E5BD1E /* Build configuration list for PBXProject "FigmaGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D06F22D215556EE00E5BD1E /* Debug */,
+				1D06F22E215556EE00E5BD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D06F22F215556EE00E5BD1E /* Build configuration list for PBXNativeTarget "FigmaGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D06F230215556EE00E5BD1E /* Debug */,
+				1D06F231215556EE00E5BD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D06F220215556EE00E5BD1E /* Project object */;
+}
