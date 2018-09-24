@@ -135,7 +135,7 @@ extension ViewStyle.Value {
         switch self {
         case .number(let number): return String(number)
         case .string(let string): return string
-        case .color(let color): return "\"rgba(\(color.r), \(color.g), \(color.b), \(color.a))\""
+        case .color(let color): return "\"rgba(\(Int(255 * color.r)), \(Int(255 * color.g)), \(Int(255 * color.b)), \(color.a))\""
         }
     }
 }
