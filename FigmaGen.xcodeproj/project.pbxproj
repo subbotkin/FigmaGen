@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15D98048A00088CF288E7523 /* libPods-FigmaGen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 984060CDA1B0528BB930390B /* libPods-FigmaGen.a */; };
 		1D06F22C215556EE00E5BD1E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D06F22B215556EE00E5BD1E /* main.swift */; };
 		1D8CB7E421555B19000D7352 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8CB7E321555B19000D7352 /* Logger.swift */; };
-		1D8CB7E621555E63000D7352 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CB7E521555E63000D7352 /* Commander.framework */; };
-		1D8CB7E821555E63000D7352 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CB7E721555E63000D7352 /* PathKit.framework */; };
-		1D8CB7EA21555E63000D7352 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CB7E921555E63000D7352 /* Stencil.framework */; };
-		4AC81347265B0C474817325D /* Pods_FigmaGen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633E8B8A755147C5894D9BA6 /* Pods_FigmaGen.framework */; };
+		1DB0B4F02157D8060084F042 /* ReactNative.stencil in Copy Files */ = {isa = PBXBuildFile; fileRef = 1DB0B4EF2157D7410084F042 /* ReactNative.stencil */; };
+		1DB0B4F22158259A0084F042 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0B4F12158259A0084F042 /* Component.swift */; };
+		1DDF62632157797200E843BE /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF62622157797200E843BE /* Project.swift */; };
+		1DDF6265215779AD00E843BE /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF6264215779AD00E843BE /* Document.swift */; };
+		1DDF626721577EA800E843BE /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF626621577EA800E843BE /* Node.swift */; };
+		1DDF62692157CB0900E843BE /* ProjectLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF62682157CB0900E843BE /* ProjectLoader.swift */; };
+		1DDF626B2157CCC600E843BE /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF626A2157CCC600E843BE /* Generator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1D06F226215556EE00E5BD1E /* CopyFiles */ = {
+		1D06F226215556EE00E5BD1E /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = Users/subbotkin/Desktop;
+			dstSubfolderSpec = 7;
 			files = (
+				1DB0B4F02157D8060084F042 /* ReactNative.stencil in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -34,8 +40,15 @@
 		1D8CB7E521555E63000D7352 /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8CB7E721555E63000D7352 /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8CB7E921555E63000D7352 /* Stencil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Stencil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		633E8B8A755147C5894D9BA6 /* Pods_FigmaGen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FigmaGen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB0B4EF2157D7410084F042 /* ReactNative.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReactNative.stencil; sourceTree = "<group>"; };
+		1DB0B4F12158259A0084F042 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		1DDF62622157797200E843BE /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		1DDF6264215779AD00E843BE /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		1DDF626621577EA800E843BE /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		1DDF62682157CB0900E843BE /* ProjectLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectLoader.swift; sourceTree = "<group>"; };
+		1DDF626A2157CCC600E843BE /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		679C8A95A8058D4084B0DB63 /* Pods-FigmaGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigmaGen.release.xcconfig"; path = "Pods/Target Support Files/Pods-FigmaGen/Pods-FigmaGen.release.xcconfig"; sourceTree = "<group>"; };
+		984060CDA1B0528BB930390B /* libPods-FigmaGen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FigmaGen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9A2BA80D203B67CD993955 /* Pods-FigmaGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigmaGen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FigmaGen/Pods-FigmaGen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,10 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D8CB7E621555E63000D7352 /* Commander.framework in Frameworks */,
-				1D8CB7E821555E63000D7352 /* PathKit.framework in Frameworks */,
-				1D8CB7EA21555E63000D7352 /* Stencil.framework in Frameworks */,
-				4AC81347265B0C474817325D /* Pods_FigmaGen.framework in Frameworks */,
+				15D98048A00088CF288E7523 /* libPods-FigmaGen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +85,25 @@
 		1D06F22A215556EE00E5BD1E /* FigmaGen */ = {
 			isa = PBXGroup;
 			children = (
+				1DB0B4EE2157D6C70084F042 /* Templates */,
 				1D06F22B215556EE00E5BD1E /* main.swift */,
 				1D8CB7E321555B19000D7352 /* Logger.swift */,
+				1DDF62622157797200E843BE /* Project.swift */,
+				1DDF6264215779AD00E843BE /* Document.swift */,
+				1DDF626621577EA800E843BE /* Node.swift */,
+				1DDF62682157CB0900E843BE /* ProjectLoader.swift */,
+				1DDF626A2157CCC600E843BE /* Generator.swift */,
+				1DB0B4F12158259A0084F042 /* Component.swift */,
 			);
 			path = FigmaGen;
+			sourceTree = "<group>";
+		};
+		1DB0B4EE2157D6C70084F042 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				1DB0B4EF2157D7410084F042 /* ReactNative.stencil */,
+			);
+			path = Templates;
 			sourceTree = "<group>";
 		};
 		469F7664E66A3CC0D3F3693A /* Frameworks */ = {
@@ -87,7 +112,7 @@
 				1D8CB7E521555E63000D7352 /* Commander.framework */,
 				1D8CB7E721555E63000D7352 /* PathKit.framework */,
 				1D8CB7E921555E63000D7352 /* Stencil.framework */,
-				633E8B8A755147C5894D9BA6 /* Pods_FigmaGen.framework */,
+				984060CDA1B0528BB930390B /* libPods-FigmaGen.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,10 +133,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D06F22F215556EE00E5BD1E /* Build configuration list for PBXNativeTarget "FigmaGen" */;
 			buildPhases = (
+				1D06F226215556EE00E5BD1E /* Copy Files */,
 				230ED536DBE3D2369FB85A47 /* [CP] Check Pods Manifest.lock */,
 				1D06F224215556EE00E5BD1E /* Sources */,
 				1D06F225215556EE00E5BD1E /* Frameworks */,
-				1D06F226215556EE00E5BD1E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -180,8 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDF62692157CB0900E843BE /* ProjectLoader.swift in Sources */,
+				1DDF6265215779AD00E843BE /* Document.swift in Sources */,
+				1DDF626721577EA800E843BE /* Node.swift in Sources */,
 				1D06F22C215556EE00E5BD1E /* main.swift in Sources */,
+				1DDF626B2157CCC600E843BE /* Generator.swift in Sources */,
+				1DB0B4F22158259A0084F042 /* Component.swift in Sources */,
 				1D8CB7E421555B19000D7352 /* Logger.swift in Sources */,
+				1DDF62632157797200E843BE /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +339,8 @@
 			baseConfigurationReference = FD9A2BA80D203B67CD993955 /* Pods-FigmaGen.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65W67XFXG5;
+				DEVELOPMENT_TEAM = M469K5QKU8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -319,7 +351,8 @@
 			baseConfigurationReference = 679C8A95A8058D4084B0DB63 /* Pods-FigmaGen.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65W67XFXG5;
+				DEVELOPMENT_TEAM = M469K5QKU8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

@@ -13,25 +13,21 @@ import PathKit
 import Stencil
 
 let main = command(
-    Argument<String>("document", description: "A Figma document key"),
-    Argument<String>("token", description: "A token to access Figma"),
+    Argument<String>("project", description: "A Figma project key"),
+    Argument<String>("token", description: "Token to access Figma"),
+    Option<String>("template", default: ".", description: "Stencil template"),
     Option<String>("output_path", default: ".", description: "Where the swift files will be generated.")
-) { document, token, outputPath in
-    let url = URL(string: "https://api.figma.com/v1/files/\(document)")!
+) { project, token, template, outputPath in
+    let projectLoader = ProjectLoader(projectKey: project, token: token)
+    let project = try projectLoader.load()
+    print(project)
     
-    var dataRequest = URLRequest(url: url)
-    dataRequest.setValue(token, forHTTPHeaderField: "Authorization: Bearer")
-    let dataTask = URLSession.shared.dataTask(with: dataRequest) { data, response, error in
-        guard let data = data else {
-            return
-        }
-        
-        let string = String(data: data, encoding: .utf8)!
-        Logger.log(.info, string)
+    let dataToWrite = try Generator(project: project, template: Path(template)).generate()
+    
+    if let file = dataToWrite.first?.file, let data = dataToWrite.first?.data {
+        try (Path(outputPath) + Path(file)).write(data)
     }
-    dataTask.resume()
-
-    
 }
 
 main.run("0.0.1")
+

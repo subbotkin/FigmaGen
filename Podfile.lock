@@ -3,23 +3,28 @@ PODS:
   - PathKit (0.9.2)
   - Stencil (0.12.1):
     - PathKit (~> 0.9.0)
+  - StencilSwiftKit (2.6.0):
+    - Stencil (~> 0.12.1)
 
 DEPENDENCIES:
   - Commander
   - PathKit
   - Stencil
+  - StencilSwiftKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Commander
     - PathKit
     - Stencil
+    - StencilSwiftKit
 
 SPEC CHECKSUMS:
   Commander: 6eda7635b133e239faa85bf75dcab88d6fd63aaa
   PathKit: 273f59a38e3218eb95abd9f6a61730a8bcfd2f06
   Stencil: 8a08577b341a059420c444b8aa5733378a6a4384
+  StencilSwiftKit: 8965117982a901cc385c156be950a75e396e89c9
 
-PODFILE CHECKSUM: de206dc89fea97ff6d682846f3154498fe589f75
+PODFILE CHECKSUM: 24cfe8e6a7fad9c8d5dd56b5fb35ad0ba0c09165
 
 COCOAPODS: 1.5.3
